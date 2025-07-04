@@ -59,6 +59,7 @@ const Layout = () => {
               {links.map((link) => (
                 <NavLink
                   to={link.to}
+                  onClick={()=>setMenuOpen(false)}
                   key={link.to}
                   end
                   className={({ isActive }) =>
