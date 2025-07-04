@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router'
 import { assets } from '../../assets/assets'
-const Sidebar = () => {
+const Sidebar = () => { 
     const links = [
       { to: "/admin", label: "Dashboard", icon: assets.home_icon },
       { to: "/admin/addBlog", label: "Add Blog", icon : assets.add_icon },
